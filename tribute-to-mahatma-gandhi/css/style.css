@@ -1,0 +1,20 @@
+
+  body {
+    font-family : Quicksand;
+    position: relative; 
+  }
+  #section1,
+  #section2,
+  #section3 {
+    min-height: 90vh;
+    padding-top: 6vh;
+    height:max-content;
+    color: black;
+    background-color: #fff;
+}
+
+p {
+  font-size: 18px;
+}
+
+ 
