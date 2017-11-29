@@ -1,0 +1,46 @@
+
+  body {
+    font-family : Quicksand;
+    position: relative; 
+  }
+
+.fa {
+  color: #e27689 ;
+}
+  #section1,
+  #section2,
+  #section3,
+  #section4{
+    min-height: 90vh;
+    padding-top: 40px;
+    height:max-content;
+    color: #888;
+    background-color: #fff;
+    font-family: "Lucida Console", Monaco, monospace
+}
+
+#section1 {
+  background-color: #fff;
+}
+
+#section2 {
+  background-color: #efefef;
+}
+p {
+  font-size: 18px;
+}
+
+.box {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.18);
+  background-color: #fff;
+  border-left: 4px solid #e27689;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#section5 {
+  color: #888;
+}
+
+ 
