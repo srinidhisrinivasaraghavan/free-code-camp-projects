@@ -1,0 +1,51 @@
+$red: random(256)-1;
+$green: random(256)-1;
+$blue: random(256)-1;
+$primary-color: #ff9900;
+body {
+  font-family: "Lucida Console", Monaco, monospace
+}
+
+.box {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.18);
+  background-color: #fff;
+  border-left: 4px solid $primary-color;
+  color: rgb($red, $green, $blue);
+  padding: 20px 20px 40px 20px;
+  margin-top: 4vh;
+  
+}
+
+.button {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.18);
+  background-color: $primary-color;
+  color: #fff;
+  border: none;
+  height: 30px;
+  border-radius: 0;
+}
+
+.content {
+  margin-top: 20vh;
+}
+
+.twitter-share-button {
+  @extend .button;
+  background-color: #1b95e0;
+  padding:2px;
+  
+  .fa-twitter {
+    padding-right: 5px;
+  }
+}
+
+
+
+.button:focus{
+    outline: none;
+  }
+
+.footer {
+  margin-top: 90vh;
+}
+
